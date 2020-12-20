@@ -24,6 +24,14 @@
 - Limited custom css/js
 - Easily customizable
 
+## Build image from  Dockerfile
+```
+docker build --tag=vrodionov/flaskex .
+```
+## Run Container
+```
+docker run -d -p 80:5000 vrodionov/flaskex
+```
 ## Setup
 ``` 
 git clone https://github.com/anfederico/Flaskex
